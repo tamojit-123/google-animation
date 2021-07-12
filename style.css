@@ -1,0 +1,28 @@
+/* =Colors */
+
+.red:#EA4335;
+.green: #34A853;
+.blue: #4285F4;
+.yellow: #FBBC05;
+
+body {
+  overflow: hidden;
+}
+#GoogleLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 310px;
+  transform: translate(-50%, 120px);
+  /* visibility: hidden;
+   */
+}
+.circle, #gLine, #gLineAnim {
+  opacity: 0;
+}
